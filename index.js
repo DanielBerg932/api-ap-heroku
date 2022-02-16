@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 var cors = require('cors');
+Access-Control-Allow-Origin: https://priceless-montalcini-251e9b.netlify.app/
+      Access-Control-Allow-Credentials: true
+      Access-Control-Allow-Methods: GET
+      Access-Control-Allow-Headers: Content-Type
 
 app.use(
     cors({
